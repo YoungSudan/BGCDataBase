@@ -82,3 +82,6 @@ gem 'devise'
 gem 'faker'
 gem 'jquery-rails'
 gem 'rubocop', require: false
+gem 'rails_admin', ['>= 3.0.0.rc3', '< 4']
+gem "sassc-rails"
+gem 'sidekiq'
