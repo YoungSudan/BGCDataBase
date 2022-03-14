@@ -9,7 +9,9 @@ class MembersController < ApplicationController
   end
 
   # GET /members/1 or /members/1.json
-  def show; end
+  def show
+    @members = Member.all
+  end
 
   # GET /members/new
   def new
